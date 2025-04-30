@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Poem_Generator</title>
   </head>
@@ -14,20 +16,16 @@
       <main>
         <form id="poem-form">
           <input
-            class="search-input"
+            id="user-instructions"
             type="text"
             placeholder="Enter topic for poem"
             autofocus
             required
             autocomplete="off"
           />
-          <input type="submit" class="submit-input" />
+          <input type="submit" id="submit-input" />
         </form>
         <div class="poem" id="poem">
-          You endlessly know
-          <br />
-          Within you are everything
-          <br />
           You touch everything
           <br />
           You feel all the magic
