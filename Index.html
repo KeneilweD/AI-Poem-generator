@@ -17,21 +17,17 @@
         <form id="poem-form">
           <input
             id="user-instructions"
+            class="search"
             type="text"
             placeholder="Enter topic for poem"
             autofocus
             required
             autocomplete="off"
           />
-          <input type="submit" id="submit-input" />
+          <input type="submit" id="submit-input" class="submit" />
         </form>
-        <div class="poem" id="poem">
-          You touch everything
-          <br />
-          You feel all the magic
-          <br />
-          That is what life is.
-        </div>
+
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>

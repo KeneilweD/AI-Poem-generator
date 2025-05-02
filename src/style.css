@@ -1,28 +1,78 @@
 body {
   background: radial-gradient(
-    621px at 25.3% 13.8%,
-    rgb(255, 255, 255) 0%,
-    rgb(234, 236, 255) 90%
+    circle at 10% 20%,
+    rgb(45, 52, 59) 0%,
+    rgb(34, 34, 34) 90%
   );
 }
 h1 {
   text-align: center;
+  font-style: inherit;
+  margin-bottom: 40px;
+  font-weight: 300;
+  color: rgb(236, 237, 239);
 }
 .container {
+  background-image: url("../img/sourav-kundu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 120px auto;
   padding: 10px;
   max-width: 600px;
+  border-radius: 10px;
+}
+p {
+  font-size: 13px;
+  margin-left: 20px;
+}
+.search {
+  padding: 7.1px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(27, 26, 26);
+  margin-left: 50px;
+  color: white;
+}
+.submit {
+  padding: 6.8px;
+  border-radius: 5px;
+  border: none;
+  background: grey;
+  color: white;
 }
 form {
-  background: gray;
+  background: rgb(62, 67, 60);
+  opacity: 0.9;
   border-radius: 10px;
   padding: 10px;
 }
+
+a {
+  color: rgb(126, 157, 241);
+}
 .poem {
+  background: white;
+  opacity: 0.6;
+  border-radius: 5px;
+  display: block;
+  margin: 15px auto;
+  max-width: 300px;
   padding: 10px;
+  text-align: center;
+  color: rgb(9, 9, 9);
   line-height: 25px;
 }
+.hidden {
+  display: none;
+}
+.poem em {
+  color: rgb(68, 39, 95);
+}
+
 footer {
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 13px;
+  color: aliceblue;
+  text-align: center;
 }
